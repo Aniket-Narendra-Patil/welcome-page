@@ -1,11 +1,13 @@
 .card {
   width: 20%;
+  height: 620px;
   display: flex;
   flex-direction: column;
   border: 3px black solid;
   color: black;
   background: white;
   text-align: center;
+  position: fixed;
 }
 
 .header {
