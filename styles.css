@@ -1,4 +1,4 @@
-.card {
+.card1 {
   width: 20%;
   display: flex;
   flex-direction: column;
@@ -6,18 +6,32 @@
   color: black;
   background: white;
   text-align: center;
+  float:left;
   position: fixed;
+  height: 100%;
 }
 
-.header {
-  height: 8%;
+.container1 {
   background: black;
   color: white;
   text-align: center;
 }
 
-.container {
+.subcontainer1 {
   padding: 2px 16px;
 }
 
 .circular--square { border-radius: 50%; }
+
+.card2 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  border: 3px black solid;
+  color: black;
+  background: white;
+  text-align: center;
+  float: right;
+  height: 200%;
+
+}
